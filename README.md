@@ -1,6 +1,3 @@
-# shopify-api-php
-Shopif api php
-
 # Shopify API Sınıfı
 
 Bu PHP sınıfı, Shopify mağazanıza erişmek ve çeşitli işlemleri gerçekleştirmek için kullanılabilir. Shopify API'sini kullanarak siparişleri, ürünleri, müşterileri ve daha fazlasını alabilir ve yönetebilirsiniz.
