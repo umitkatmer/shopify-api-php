@@ -13,6 +13,8 @@ Bu PHP sınıfı, Shopify mağazanıza erişmek ve çeşitli işlemleri gerçekl
 ## Kullanım
 
 ```php
+
+<?php
 // Shopify nesnesini oluşturun
 $shopify = new Shopify();
 
@@ -55,7 +57,8 @@ $productParams = array(
 $productData = $shopify->getProductsWithPagination($productParams);
 print_r($productData['products']);
 echo 'Sonraki Sayfa: ' . $productData['pagination']['next'];
-
+?>
+```
 ## Yardım ve Destek
 
 Herhangi bir sorunuz veya desteğe ihtiyacınız varsa, aşağıdaki kaynaklardan yardım alabilirsiniz:
