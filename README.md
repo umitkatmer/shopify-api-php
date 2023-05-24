@@ -1,14 +1,18 @@
 # shopify-api-php
 Shopif api php
 
-<h1>Shopify API Sınıfı</h1>
-<p>Bu PHP sınıfı, Shopify mağazanıza erişmek ve çeşitli işlemleri gerçekleştirmek için kullanılabilir. Shopify API'sini kullanarak siparişleri, ürünleri, müşterileri ve daha fazlasını alabilir ve yönetebilirsiniz.</p>
+# Shopify API Sınıfı
 
-    <h2>Kurulum</h2>
-    <pre><code>require 'Shopify.php';</code></pre>
+Bu PHP sınıfı, Shopify mağazanıza erişmek ve çeşitli işlemleri gerçekleştirmek için kullanılabilir. Shopify API'sini kullanarak siparişleri, ürünleri, müşterileri ve daha fazlasını alabilir ve yönetebilirsiniz.
 
-    <h2>Kullanım</h2>
-    <pre><code>
+## Kurulum
+
+- `Shopify.php` dosyasını indirin ve projenizin klasörüne yerleştirin.
+- Dosyanın başına `require 'Shopify.php';` ekleyin.
+
+## Kullanım
+
+```php
 // Shopify nesnesini oluşturun
 $shopify = new Shopify();
 
@@ -51,10 +55,4 @@ $productParams = array(
 $productData = $shopify->getProductsWithPagination($productParams);
 print_r($productData['products']);
 echo 'Sonraki Sayfa: ' . $productData['pagination']['next'];
-    </code></pre>
 
-<h2>Yardım ve Destek</h2>
-<p>Herhangi bir sorunuz veya desteğe ihtiyacınız varsa, lütfen <a href="https://shopify.dev/docs/admin-api/rest/reference">Shopify API Belgeleri</a>'ne başvurun veya <a href="https://help.shopify.com/en/questions">Shopify Destek</a> ekibine başvurun.</p>
-
-    <h2>Lisans</h2>
-    <p>Bu projenin lisansı <a href="https://opensource.org/licenses/MIT">MIT Lisansı</a> altında lisanslanmıştır. Daha fazla bilgi için lütfen <code>LICENSE</code> dosyasını inceleyin.</p>
