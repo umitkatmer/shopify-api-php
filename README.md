@@ -65,7 +65,6 @@ Herhangi bir sorunuz veya desteğe ihtiyacınız varsa, aşağıdaki kaynaklarda
 
 - [Shopify API Belgeleri](https://shopify.dev/docs/admin-api/rest/reference): Shopify API hakkında ayrıntılı belgelere buradan ulaşabilirsiniz.
 - [Shopify Destek](https://help.shopify.com/en/questions): Shopify Destek ekibi ile iletişime geçmek için bu bağlantıyı kullanabilirsiniz.
-- GitHub Issue: Projeyle ilgili sorunları, önerileri veya hata raporlarını [GitHub Issues](https://github.com/kullanici/proje/issues) üzerinden bildirebilirsiniz.
 
 Yardım ve destek taleplerinizi iletmek için uygun olan yöntemi seçebilirsiniz. Shopify API Belgeleri genellikle en iyi kaynak olacaktır, ancak Shopify Destek ekibi veya GitHub üzerinden de yardım alabilirsiniz.
 
